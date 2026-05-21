@@ -1,0 +1,51 @@
+body{
+  margin:0;
+  background:black;
+  color:white;
+  font-family:Arial;
+  text-align:center;
+}
+
+header{
+  padding:30px;
+}
+
+.logo{
+  width:180px;
+}
+
+h1{
+  color:gold;
+  font-size:50px;
+}
+
+p{
+  color:#ddd;
+}
+
+.banner{
+  width:100%;
+  max-width:1200px;
+  border-radius:10px;
+}
+
+.features{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  flex-wrap:wrap;
+  padding:40px;
+}
+
+.features div{
+  background:#111;
+  border:1px solid gold;
+  padding:20px;
+  border-radius:10px;
+  width:220px;
+}
+
+footer{
+  padding:20px;
+  color:gray;
+}
